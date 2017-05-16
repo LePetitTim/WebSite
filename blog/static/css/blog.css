@@ -49,3 +49,33 @@ h1, h2, h3, h4 {
 .comment {
     margin: 20px 0px 20px 20px;
 }
+
+.cell-border {
+  fill: none;
+  stroke: #ccc;
+}
+
+.cell-center {
+  fill: none;
+  stroke: orange;
+}
+
+.label {
+  font: 11px sans-serif;
+}
+
+.label--top {
+  text-anchor: middle;
+}
+
+.label--right {
+  text-anchor: start;
+}
+
+.label--bottom {
+  text-anchor: middle;
+}
+
+.label--left {
+  text-anchor: end;
+}
