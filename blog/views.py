@@ -85,3 +85,7 @@ def comment_remove(request, pk):
     comment = get_object_or_404(Comment, pk=pk)
     comment.delete()
     return redirect('post_detail', pk=comment.post.pk)
+
+def test(request):
+    form = CommentForm()
+    return render('blog/test.html', {'form': form})
