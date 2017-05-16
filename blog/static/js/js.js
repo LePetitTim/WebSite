@@ -1,60 +1,75 @@
-var width = 960,
-    height = 500;
+var maxRadius = 32, // maximum radius of circle
+    padding = 1, // padding between circles; also minimum radius
+    margin = {top: -maxRadius, right: -maxRadius, bottom: -maxRadius, left: -maxRadius},
+    width = 960 - margin.left - margin.right,
+    height = 500 - margin.top - margin.bottom;
 
-var randomX = d3.random.normal(width / 2, 80),
-    randomY = d3.random.normal(height / 2, 80);
-
-var data = d3.range(200)
-    .map(function() { return [randomX(), randomY()]; })
-    .filter(function(d) { return 0 <= d[0] && d[0] <= width && 0 <= d[1] && d[1] <= height; });
-
-var cells = d3.geom.voronoi()
-    .clipExtent([[-1, -1], [width + 1, height + 1]])
-    (data)
-    .map(d3.geom.polygon);
+var k = 1, // initial number of candidates to consider per circle
+    m = 10, // initial number of circles to add per frame
+    n = 2500, // remaining number of circles to add
+    newCircle = bestCircleGenerator(maxRadius, padding);
 
 var svg = d3.select("body").append("svg")
     .attr("width", width)
-    .attr("height", height);
+    .attr("height", height)
+  .append("g")
+    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-var cell = svg.append("g")
-    .attr("class", "cell")
-  .selectAll("g")
-    .data(cells)
-  .enter().append("g");
+d3.timer(function() {
+  for (var i = 0; i < m && --n >= 0; ++i) {
+    var circle = newCircle(k);
 
-cell.append("path")
-    .attr("class", "cell-center")
-    .attr("d", function(d) { return "M" + d.centroid() + "L" + d.point; });
+    svg.append("circle")
+        .attr("cx", circle[0])
+        .attr("cy", circle[1])
+        .attr("r", 0)
+        .style("fill-opacity", (Math.random() + .5) / 2)
+      .transition()
+        .attr("r", circle[2]);
 
-cell.append("path")
-    .attr("class", "cell-border")
-    .attr("d", function(d) { return "M" + d.join("L") + "Z"; });
+    // As we add more circles, generate more candidates per circle.
+    // Since this takes more effort, gradually reduce circles per frame.
+    if (k < 500) k *= 1.01, m *= .998;
+  }
+  return !n;
+});
 
-svg.append("g")
-    .attr("class", "dot")
-  .selectAll("circle")
-    .data(data)
-  .enter().append("circle")
-    .attr("transform", function(d) { return "translate(" + d + ")"; })
-    .attr("r", 2.5);
+function bestCircleGenerator(maxRadius, padding) {
+  var quadtree = d3.geom.quadtree().extent([[0, 0], [width, height]])([]),
+      searchRadius = maxRadius * 2,
+      maxRadius2 = maxRadius * maxRadius;
 
-svg.append("g")
-    .attr("class", "label")
-  .selectAll("text")
-    .data(cells.filter(function(d) { return d.area() > 2000; }))
-  .enter().append("text")
-    .attr("class", function(d) {
-      var centroid = d.centroid(),
-          point = d.point,
-          angle = Math.round(Math.atan2(centroid[1] - point[1], centroid[0] - point[0]) / Math.PI * 2);
-      return "label--" + (d.orient = angle === 0 ? "right"
-          : angle === -1 ? "top"
-          : angle === 1 ? "bottom"
-          : "left");
-    })
-    .attr("transform", function(d) { return "translate(" + d.point + ")"; })
-    .attr("dy", function(d) { return d.orient === "left" || d.orient === "right" ? ".35em" : d.orient === "bottom" ? ".71em" : null; })
-    .attr("x", function(d) { return d.orient === "right" ? 6 : d.orient === "left" ? -6 : null; })
-    .attr("y", function(d) { return d.orient === "bottom" ? 6 : d.orient === "top" ? -6 : null; })
-    .text(function(d, i) { return i; });
+  return function(k) {
+    var bestX, bestY, bestDistance = 0;
+
+    for (var i = 0; i < k || bestDistance < padding; ++i) {
+      var x = Math.random() * width,
+          y = Math.random() * height,
+          rx1 = x - searchRadius,
+          rx2 = x + searchRadius,
+          ry1 = y - searchRadius,
+          ry2 = y + searchRadius,
+          minDistance = maxRadius; // minimum distance for this candidate
+
+      quadtree.visit(function(quad, x1, y1, x2, y2) {
+        if (p = quad.point) {
+          var p,
+              dx = x - p[0],
+              dy = y - p[1],
+              d2 = dx * dx + dy * dy,
+              r2 = p[2] * p[2];
+          if (d2 < r2) return minDistance = 0, true; // within a circle
+          var d = Math.sqrt(d2) - p[2];
+          if (d < minDistance) minDistance = d;
+        }
+        return !minDistance || x1 > rx2 || x2 < rx1 || y1 > ry2 || y2 < ry1; // or outside search radius
+      });
+
+      if (minDistance > bestDistance) bestX = x, bestY = y, bestDistance = minDistance;
+    }
+
+    var best = [bestX, bestY, bestDistance - padding];
+    quadtree.add(best);
+    return best;
+  };
+}
