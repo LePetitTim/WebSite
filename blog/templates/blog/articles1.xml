@@ -1,0 +1,520 @@
+<PubmedArticle>
+	<PMID Version="1">28043100</PMID>
+	<DateCreated>
+		<Year>2017</Year>
+		<Month>01</Month>
+		<Day>03</Day>
+	</DateCreated>
+	<DateRevised>
+		<Year>2017</Year>
+		<Month>01</Month>
+		<Day>05</Day>
+	</DateRevised>
+	<Article PubModel="Print">
+		<Journal>
+			<ISSN IssnType="Print">2093-4777</ISSN>
+			<JournalIssue CitedMedium="Print">
+				<Volume>20</Volume>
+				<Issue>4</Issue>
+				<PubDate>
+					<Year>2016</Year>
+					<Month>Dec</Month>
+				</PubDate>
+			</JournalIssue>
+			<Title>International neurourology journal</Title>
+			<ISOAbbreviation>Int Neurourol J</ISOAbbreviation>
+		</Journal>
+		<ArticleTitle>Erratum: Increased Expression of Herpes Virus-Encoded hsv1-miR-H18 and hsv2-miR-H9-5p in Cancer-Containing Prostate Tissue Compared to That in Benign Prostate Hyperplasia Tissue.</ArticleTitle>
+		<Pagination>
+			<MedlinePgn>374</MedlinePgn>
+		</Pagination>
+		<ELocationID EIdType="doi" ValidYN="Y">10.5213/inj.1620err.002</ELocationID>
+		<Abstract>
+			<AbstractText>[This corrects the article on p. 122 in vol. 20, PMID: 27377944.].</AbstractText>
+		</Abstract>
+		<AnalyzeAbstract>
+			<Word>
+				<Name>amifostine</Name>
+				<Number>9</Number>
+			</Word>
+			<Word>
+				<Name>clinical</Name>
+				<Number>4</Number>
+			</Word>
+			<Word>
+				<Name>reduce</Name>
+				<Number>3</Number>
+			</Word>
+			<Word>
+				<Name>radiation</Name>
+				<Number>3</Number>
+			</Word>
+			<Word>
+				<Name>normal</Name>
+				<Number>3</Number>
+			</Word>
+			<Word>
+				<Name>administration</Name>
+				<Number>3</Number>
+			</Word>
+			<Word>
+				<Name>use</Name>
+				<Number>2</Number>
+			</Word>
+			<Word>
+				<Name>tissues</Name>
+				<Number>2</Number>
+			</Word>
+		</AnalyzeAbstract>
+		<AuthorList CompleteYN="Y">
+			<Author ValidYN="Y">
+				<LastName>Yun</LastName>
+				<ForeName>Seok Joong</ForeName>
+				<Initials>SJ</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Urology, Chungbuk National University College of Medicine, Cheongju, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Jeong</LastName>
+				<ForeName>Pildu</ForeName>
+				<Initials>P</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Urology, Chungbuk National University College of Medicine, Cheongju, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Kang</LastName>
+				<ForeName>Ho Won</ForeName>
+				<Initials>HW</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Urology, Chungbuk National University College of Medicine, Cheongju, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Shinn</LastName>
+				<ForeName>Helen Ki</ForeName>
+				<Initials>HK</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Anesthesiology and Pain Medicine, Inha University College of Medicine, Incheon, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Kim</LastName>
+				<ForeName>Ye-Hwan</ForeName>
+				<Initials>YH</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Urology, Chungbuk National University College of Medicine, Cheongju, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Yan</LastName>
+				<ForeName>Chunri</ForeName>
+				<Initials>C</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Urology, Chungbuk National University College of Medicine, Cheongju, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Choi</LastName>
+				<ForeName>Young-Ki</ForeName>
+				<Initials>YK</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Microbiology, College of Medicine and Medical Research Institute, Chungbuk National University, Cheongju, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Kim</LastName>
+				<ForeName>Dongho</ForeName>
+				<Initials>D</Initials>
+				<AffiliationInfo>
+					<Affiliation>Bio Medical Laboratories, Daejeon, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Ryu</LastName>
+				<ForeName>Dong Hee</ForeName>
+				<Initials>DH</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Surgery, Chungbuk National University, College of Medicine and Medical Research Institute, Cheongju, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Ha</LastName>
+				<ForeName>Yun-Sok</ForeName>
+				<Initials>YS</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Urology, Kyungpook National University School of Medicine, Daegu, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Kim</LastName>
+				<ForeName>Tae-Hwan</ForeName>
+				<Initials>TH</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Urology, Kyungpook National University School of Medicine, Daegu, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Kwon</LastName>
+				<ForeName>Tae Gyun</ForeName>
+				<Initials>TG</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Urology, Kyungpook National University School of Medicine, Daegu, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Kim</LastName>
+				<ForeName>Jung Min</ForeName>
+				<Initials>JM</Initials>
+				<AffiliationInfo>
+					<Affiliation>NAR Center Inc., Daejeon Oriental Hospital of Daejeon University, Daejeon, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Suh</LastName>
+				<ForeName>Sang Heon</ForeName>
+				<Initials>SH</Initials>
+				<AffiliationInfo>
+					<Affiliation>The Laboratory of Vascular Biology and Stem Cells, BioMedical Research Center, Graduate School of Medical Science and Engineering, Korea Advanced Institute of Science and Technology (KAIST), Daejeon, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Kim</LastName>
+				<ForeName>Seon-Kyu</ForeName>
+				<Initials>SK</Initials>
+				<AffiliationInfo>
+					<Affiliation>Medical Genomics Research Center, Korean Bioinformation Center, Korea Research Institute of Bioscience and Biotechnology, Department of Functional Genomics, University of Science and Technology, Daejeon, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Kim</LastName>
+				<ForeName>Seon-Young</ForeName>
+				<Initials>SY</Initials>
+				<AffiliationInfo>
+					<Affiliation>Medical Genomics Research Center, Korean Bioinformation Center, Korea Research Institute of Bioscience and Biotechnology, Department of Functional Genomics, University of Science and Technology, Daejeon, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Kim</LastName>
+				<ForeName>Sang Tae</ForeName>
+				<Initials>ST</Initials>
+				<AffiliationInfo>
+					<Affiliation>Biomedical Research Institute, Department of Neuropsychiatry, Seoul National University Bundang Hospital, Seoul National University College of Medicine, Seoul, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Kim</LastName>
+				<ForeName>Won Tae</ForeName>
+				<Initials>WT</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Urology, Chungbuk National University College of Medicine, Cheongju, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Lee</LastName>
+				<ForeName>Ok-Jun</ForeName>
+				<Initials>OJ</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Pathology, Chungbuk National University College of Medicine, Cheongju, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Moon</LastName>
+				<ForeName>Sung-Kwon</ForeName>
+				<Initials>SK</Initials>
+				<AffiliationInfo>
+					<Affiliation>School of Food Science and Technology, Chung-Ang University, Anseong, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Kim</LastName>
+				<ForeName>Nam-Hyung</ForeName>
+				<Initials>NH</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Animal Sciences, Chungbuk National University, Cheongju, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Kim</LastName>
+				<ForeName>Isaac Yi</ForeName>
+				<Initials>IY</Initials>
+				<AffiliationInfo>
+					<Affiliation>The Section of Urologic Oncology and Dean and Betty Gallo Prostate Cancer Center, The Cancer Institute of New Jersey, UMDNJ-Robert Wood Johnson Medical School, New Brunswick, NJ, USA.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Kim</LastName>
+				<ForeName>Jayoung</ForeName>
+				<Initials>J</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Surgery, Harvard Medical School, Boston, MA, USA.</Affiliation>
+				</AffiliationInfo>
+				<AffiliationInfo>
+					<Affiliation>Division of Cancer Biology and Therapeutics, Departments of Surgery and Biomedical Sciences, Samuel Oschin Comprehensive Cancer Institute, Cedars- Sinai Medical Center, Los Angeles, CA, USA.</Affiliation>
+				</AffiliationInfo>
+				<AffiliationInfo>
+					<Affiliation>Department of Medicine, University of California Los Angeles, Los Angeles, CA, USA.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Cha</LastName>
+				<ForeName>Hee-Jae</ForeName>
+				<Initials>HJ</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Parasitology and Genetics, Kosin University College of Medicine, Busan, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Choi</LastName>
+				<ForeName>Yung-Hyun</ForeName>
+				<Initials>YH</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Biochemistry, Dongeui University College of Oriental Medicine, Busan, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Cha</LastName>
+				<ForeName>Eun-Jong</ForeName>
+				<Initials>EJ</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Biomedical Engineering, Chungbuk National University, Cheongju, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Kim</LastName>
+				<ForeName>Wun-Jae</ForeName>
+				<Initials>WJ</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Urology, Chungbuk National University College of Medicine, Cheongju, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+		</AuthorList>
+		<Language>eng</Language>
+		<PublicationTypeList>
+			<PublicationType UI="D016425">Published Erratum</PublicationType>
+		</PublicationTypeList>
+	</Article>
+	<MedlineJournalInfo>
+		<Country>Korea (South)</Country>
+		<MedlineTA>Int Neurourol J</MedlineTA>
+		<NlmUniqueID>101534513</NlmUniqueID>
+		<ISSNLinking>2093-4777</ISSNLinking>
+	</MedlineJournalInfo>
+	<CommentsCorrectionsList>
+		<CommentsCorrections RefType="ErratumFor">
+			<RefSource>Int Neurourol J. 2016 Jun;20(2):122-30</RefSource>
+			<PMID Version="1">27377944</PMID>
+		</CommentsCorrections>
+	</CommentsCorrectionsList>
+</MedlineCitation>
+<PubmedData>
+	<History>
+		<PubMedPubDate PubStatus="entrez">
+			<Year>2017</Year>
+			<Month>1</Month>
+			<Day>4</Day>
+			<Hour>6</Hour>
+			<Minute>0</Minute>
+		</PubMedPubDate>
+		<PubMedPubDate PubStatus="pubmed">
+			<Year>2017</Year>
+			<Month>1</Month>
+			<Day>4</Day>
+			<Hour>6</Hour>
+			<Minute>0</Minute>
+		</PubMedPubDate>
+		<PubMedPubDate PubStatus="medline">
+			<Year>2017</Year>
+			<Month>1</Month>
+			<Day>4</Day>
+			<Hour>6</Hour>
+			<Minute>1</Minute>
+		</PubMedPubDate>
+	</History>
+	<PublicationStatus>ppublish</PublicationStatus>
+	<ArticleIdList>
+		<ArticleId IdType="pubmed">28043100</ArticleId>
+		<ArticleId IdType="doi">10.5213/inj.1620err.002</ArticleId>
+		<ArticleId IdType="pii">inj-1620err-002</ArticleId>
+		<ArticleId IdType="pmc">PMC5209567</ArticleId>
+	</ArticleIdList>
+	<PMID Version="1">28043101</PMID>
+	<DateCreated>
+		<Year>2017</Year>
+		<Month>01</Month>
+		<Day>03</Day>
+	</DateCreated>
+	<DateRevised>
+		<Year>2017</Year>
+		<Month>01</Month>
+		<Day>05</Day>
+	</DateRevised>
+	<Article PubModel="Print">
+		<Journal>
+			<ISSN IssnType="Print">2093-4777</ISSN>
+			<JournalIssue CitedMedium="Print">
+				<Volume>20</Volume>
+				<Issue>4</Issue>
+				<PubDate>
+					<Year>2016</Year>
+					<Month>Dec</Month>
+				</PubDate>
+			</JournalIssue>
+			<Title>International neurourology journal</Title>
+			<ISOAbbreviation>Int Neurourol J</ISOAbbreviation>
+		</Journal>
+		<ArticleTitle>Erratum: Application of Virtual, Augmented, and Mixed Reality to Urology.</ArticleTitle>
+		<Pagination>
+			<MedlinePgn>375</MedlinePgn>
+		</Pagination>
+		<ELocationID EIdType="doi" ValidYN="Y">10.5213/inj.1620err.003</ELocationID>
+		<Abstract>
+			<AbstractText>[This corrects the article on p. 172 in vol. 20, PMID: 27706017.].</AbstractText>
+		</Abstract>
+		<AnalyzeAbstract>
+			<Word>
+				<Name>amifostine</Name>
+				<Number>9</Number>
+			</Word>
+			<Word>
+				<Name>clinical</Name>
+				<Number>4</Number>
+			</Word>
+			<Word>
+				<Name>reduce</Name>
+				<Number>3</Number>
+			</Word>
+			<Word>
+				<Name>radiation</Name>
+				<Number>3</Number>
+			</Word>
+			<Word>
+				<Name>normal</Name>
+				<Number>3</Number>
+			</Word>
+			<Word>
+				<Name>administration</Name>
+				<Number>3</Number>
+			</Word>
+			<Word>
+				<Name>use</Name>
+				<Number>2</Number>
+			</Word>
+			<Word>
+				<Name>tissues</Name>
+				<Number>2</Number>
+			</Word>
+		</AnalyzeAbstract>
+		<AuthorList CompleteYN="Y">
+			<Author ValidYN="Y">
+				<LastName>Hamacher</LastName>
+				<ForeName>Alaric</ForeName>
+				<Initials>A</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Computer Science, Gachon University, Seongnam, Korea.</Affiliation>
+				</AffiliationInfo>
+				<AffiliationInfo>
+					<Affiliation>Graduate School of Information Contents, Kwangwoon University, Seoul, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Kim</LastName>
+				<ForeName>Su Jin</ForeName>
+				<Initials>SJ</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Urology, Seoul St. Mary's Hospital, College of Medicine, The Catholic University of Korea, Seoul, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Cho</LastName>
+				<ForeName>Sung Tae</ForeName>
+				<Initials>ST</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Urology, Hallym University College of Medicine, Seoul, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Pardeshi</LastName>
+				<ForeName>Sunil</ForeName>
+				<Initials>S</Initials>
+				<AffiliationInfo>
+					<Affiliation>Graduate School of Information Contents, Kwangwoon University, Seoul, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Lee</LastName>
+				<ForeName>Seung Hyun</ForeName>
+				<Initials>SH</Initials>
+				<AffiliationInfo>
+					<Affiliation>Graduate School of Information Contents, Kwangwoon University, Seoul, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Eun</LastName>
+				<ForeName>Sung-Jong</ForeName>
+				<Initials>SJ</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Computer Science, Gachon University, Seongnam, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+			<Author ValidYN="Y">
+				<LastName>Whangbo</LastName>
+				<ForeName>Taeg Keun</ForeName>
+				<Initials>TK</Initials>
+				<AffiliationInfo>
+					<Affiliation>Department of Computer Science, Gachon University, Seongnam, Korea.</Affiliation>
+				</AffiliationInfo>
+			</Author>
+		</AuthorList>
+		<Language>eng</Language>
+		<PublicationTypeList>
+			<PublicationType UI="D016425">Published Erratum</PublicationType>
+		</PublicationTypeList>
+	</Article>
+	<MedlineJournalInfo>
+		<Country>Korea (South)</Country>
+		<MedlineTA>Int Neurourol J</MedlineTA>
+		<NlmUniqueID>101534513</NlmUniqueID>
+		<ISSNLinking>2093-4777</ISSNLinking>
+	</MedlineJournalInfo>
+	<CommentsCorrectionsList>
+		<CommentsCorrections RefType="ErratumFor">
+			<RefSource>Int Neurourol J. 2016 Sep;20(3):172-181</RefSource>
+			<PMID Version="1">27706017</PMID>
+		</CommentsCorrections>
+	</CommentsCorrectionsList>
+</MedlineCitation>
+<PubmedData>
+	<History>
+		<PubMedPubDate PubStatus="entrez">
+			<Year>2017</Year>
+			<Month>1</Month>
+			<Day>4</Day>
+			<Hour>6</Hour>
+			<Minute>0</Minute>
+		</PubMedPubDate>
+		<PubMedPubDate PubStatus="pubmed">
+			<Year>2017</Year>
+			<Month>1</Month>
+			<Day>4</Day>
+			<Hour>6</Hour>
+			<Minute>0</Minute>
+		</PubMedPubDate>
+		<PubMedPubDate PubStatus="medline">
+			<Year>2017</Year>
+			<Month>1</Month>
+			<Day>4</Day>
+			<Hour>6</Hour>
+			<Minute>1</Minute>
+		</PubMedPubDate>
+	</History>
+	<PublicationStatus>ppublish</PublicationStatus>
+	<ArticleIdList>
+		<ArticleId IdType="pubmed">28043101</ArticleId>
+		<ArticleId IdType="doi">10.5213/inj.1620err.003</ArticleId>
+		<ArticleId IdType="pii">inj-1620err-003</ArticleId>
+		<ArticleId IdType="pmc">PMC5209568</ArticleId>
+	</ArticleIdList>
+</PubmedArticle>
+
